@@ -9,6 +9,7 @@ html {
 }
 
 .page {
+  display: flex;
   inline-size: 1200px;
   block-size: 100%;
   margin: auto;
@@ -51,10 +52,6 @@ ol {
 }
 
 /* Кастомные стили */
-
-.page {
-  display: flex;
-}
 
 .result {
   align-self: end;
@@ -152,6 +149,8 @@ ol {
 
 .content__card-link {
   width: 100%;
+  text-decoration: none;
+  color: #fff;
 }
 
 .search-form__fieldset-title {
@@ -171,11 +170,6 @@ ol {
 
 .content__accent {
   color: #545050;
-}
-
-.content__card-link {
-  text-decoration: none;
-  color: #fff;
 }
 
 .content__video-card-title {
@@ -310,8 +304,4 @@ ol {
   margin-top: 30px;
   width: 100%;
   height: 34px;
-}
-
-.result__video-container {
-  position: relative;
 }
