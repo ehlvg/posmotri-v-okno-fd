@@ -278,10 +278,6 @@ ol {
   text-decoration: underline;
 }
 
-.search-form__label:has(:focus-visible) {
-  outline: 1px solid white;
-}
-
 .button {
   border: 1px solid white;
   background-color: transparent;
